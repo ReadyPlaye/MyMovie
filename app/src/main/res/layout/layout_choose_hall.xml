@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/shape_1c2_10_4"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_choose_hall_hall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影厅"
+            android:includeFontPadding="false"
+            android:textColor="#deffffff"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/tv_choose_hall_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="价格"
+            android:includeFontPadding="false"
+            android:textSize="10sp"
+            android:textColor="#ff0000"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:id="@+id/tv_choose_hall_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:includeFontPadding="false"
+            android:textSize="16sp"
+            android:textColor="#deffffff"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ShopActivity">
+    <com.bw.movie.util.CustomViewPager
+        android:id="@+id/view_pager_shop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp">
+    </com.bw.movie.util.CustomViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#1c2243"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/btn_film"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="#e8158e"
+                android:drawableLeft="@drawable/movie_yingpian"/>
+            <RadioButton
+                android:id="@+id/btn_cinema"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="#e8158e"
+                android:padding="40dp"
+                android:drawableLeft="@drawable/cinema"/>
+            <RadioButton
+                android:id="@+id/btn_my"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="#e8158e"
+                android:padding="40dp"
+                android:drawableLeft="@drawable/my"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

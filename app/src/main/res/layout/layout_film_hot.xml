@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="130dp">
+        <ImageView
+            android:id="@+id/iv_film_hot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/zhanweitu"/>
+        <TextView
+            android:id="@+id/tv_film_hot_score"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="评分"
+            android:textSize="12sp"
+            android:background="@drawable/shape_000_5"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_film_hot_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="名字"/>
+    <Button
+        android:id="@+id/btn_film_hot"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="购票"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_ff7_5"/>
+
+</LinearLayout>
